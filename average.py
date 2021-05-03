@@ -1,4 +1,7 @@
 def avg(inputList):
+    if(not isinstance(inputList, list)):
+        return "Not a valid input"
+    
     if(len(inputList) <= 0):
         return 0
     total = 0
