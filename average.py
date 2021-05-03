@@ -12,7 +12,7 @@ def avg(inputList):
             return "Not a valid input"
 
     average = total / len(inputList)
-    return average
+    return round(average,2)
 
 def isValid(value):
     if((type(value) is int) or (type(value) is float)):

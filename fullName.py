@@ -8,6 +8,9 @@ def fullname(firstName, lastName):
 
 def isValid(inputString):
     if(type(inputString) is str):
-        return True
+        if(inputString == ""):
+            return False
+        else:
+            return True
     else:
         return False
